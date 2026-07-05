@@ -167,6 +167,10 @@
 	    JavascriptExecutor executor = (JavascriptExecutor) driver;
 	    executor.executeScript("arguments[0].click()", findLocator(by));
 	  }
+	  public void clickElementJs1(By by) {
+		    JavascriptExecutor executor = (JavascriptExecutor) driver;
+		    executor.executeScript("arguments[0].click()", findLocator(by));
+	  }
 
 	}
 
